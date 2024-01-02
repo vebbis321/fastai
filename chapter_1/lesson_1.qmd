@@ -1,0 +1,10 @@
+
+```python
+%pip install -Uqq fastai duckduckgo_search
+from fastbook import *
+```
+
+```python
+urls = search_images_ddg('bird photos', max_images=1)
+len(urls), urls[0]
+```

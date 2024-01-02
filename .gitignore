@@ -199,4 +199,8 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
+# quarto
+chapter_*/lesson_*_files*
+chapter_*/lesson_*.html
+
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,linux
